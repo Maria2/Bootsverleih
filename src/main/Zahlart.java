@@ -16,5 +16,12 @@ public class Zahlart {
 		this.beschreibung=beschreibung;
 		
 	}
+	
+	public String toString()
+	{
+		
+		return zID+" "+beschreibung+" ";
+	}
+	
 
 }

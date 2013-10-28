@@ -27,5 +27,11 @@ public class Boot {
 		this.BootType=BootsTyp.btId;
 		this.KostenProTag=KostenProTag;
 	}
-
+	
+	public String toString()
+	{
+		
+		return BootId+" "+Name+" "+BootType+" "+KostenProTag+" ";
+	}
+	
 }

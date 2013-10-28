@@ -25,5 +25,10 @@ public class Kunde {
 		this.wohnort=wohnort;
 		this.plz=plz;
 	}
+	
+	public String toString()
+	{
+		return kId+"	"+vorname+"		"+nachname+"	"+wohnort+"		"+plz+"		";
+	}
 
 }

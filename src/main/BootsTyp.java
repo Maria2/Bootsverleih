@@ -16,7 +16,7 @@ public class BootsTyp {
 	private String benennung; //name des typs => beschreibung
 	private int gewicht;
 	private boolean schein; // scheinplichtig
-	private int länge;
+	private int laenge;
 	private int breite;
 	private int maxPerson; //pro Boot
 	
@@ -31,7 +31,7 @@ public class BootsTyp {
 		this.benennung=benennung;
 		this.gewicht=gewicht;
 		this.schein=schein;
-		this.länge=l;
+		this.laenge=l;
 		this.breite=b;
 		this.maxPerson=maxPer;
 				
@@ -41,5 +41,11 @@ public class BootsTyp {
 	{
 		return btId;
 	}
-
+	
+	public String toString()
+	{
+		
+		return btId+" "+benennung+" "+gewicht+" "+schein+" "+laenge+" "+breite+" "+maxPerson+" ";
+	}
+	
 }

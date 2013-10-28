@@ -24,5 +24,11 @@ public class Mietet {
 		this.discount=discount;
 		
 	}
+	
+	public String toString()
+	{
+		
+		return mId+" "+verleihStart+" "+dauer+" "+discount+" ";
+	}
 
 }
